@@ -1,0 +1,137 @@
+  *{
+box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+h1,h2  {
+font-family: 'Indie Flower';
+text-align: center;
+color: white;
+}
+
+a {
+  color: white;
+}
+
+
+.logoet {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.yoga {
+  max-width: 100%;
+}
+
+.oko{
+ max-width: 90%;
+ max-height: auto;
+ height: auto;
+ text-align: center;
+ position: static;
+ margin: 20px 5px;
+}
+
+.fair{
+ max-width: 90%;
+ max-height: auto;
+ height: auto;
+ text-align: center;
+ position: static;
+ margin: 20px 5px;
+}
+
+
+}
+
+h1{
+border-bottom: 2px solid white;
+}
+
+h2,p{
+border: 2px solid white;
+color: white;
+margin: 10px;
+}
+
+p{
+font-family: arial;
+text-align: justify;
+text-align: center;
+padding: 15px;
+margin: 10px 70px;
+}
+
+body{
+background-color: pink;
+border-spacing: inherit
+padding: 0;
+margin: 0;
+}
+
+header{
+background-color: white;
+
+}
+
+
+
+li {
+    display: inline-block;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Indie Flower';
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
+    font-family: 'Indie Flower';
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

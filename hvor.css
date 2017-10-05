@@ -1,0 +1,92 @@
+*{
+box-sizing: border-box;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: "Indie Flower";
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Indie Flower';
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
+    font-family: 'Indie Flower';
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+/* Gør billedet rundt */
+.img-circle {
+  border-radius: 50%;
+  width: 60%;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin: 30px;
+  text-align: justify;
+  font-family: "arial";
+}
+
+/* search bar */
+input[type=text] {
+    width: 130px;
+    text-align: center;
+    margin: 5px 5px 20px 5px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* Når search baren bliver trykket på, skifter omridset farve */
+input[type=text]:focus {
+    width: 130px;
+}

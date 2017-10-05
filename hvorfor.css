@@ -1,0 +1,86 @@
+*{
+box-sizing: border-box;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  display: flex;
+  font-family: arial;
+  text-align: justify;
+  max-width: inherit;
+  margin: 7px 40px;
+}
+
+h3 {
+  font-family: 'indie flower';
+}
+
+.josef {
+  display: block;
+  margin: auto;
+  padding-top: 5%;
+  text-align: center;
+  max-width: 80%;
+}
+
+.gammelmand {
+  display: block;
+  margin: auto;
+  padding-top: 5%;
+  text-align: center;
+  max-width: 80%;
+}
+/*Her starter min navigation*/
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Indie Flower';
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
+    font-family: 'Indie Flower';
+}
+
+li.dropdown {
+    display: inline-block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*Her slutter min navigation*/
+
+/*Her starter min media*/
